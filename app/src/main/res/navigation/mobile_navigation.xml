@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/nav_calculator"
-        android:name="com.example.mobiledevassignment1.ui.gallery.GalleryFragment"
+        android:name="com.example.mobiledevassignment1.ui.calculator.CalculatorFragment"
         android:label="@string/menu_calc"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_calculator" />
 
     <fragment
         android:id="@+id/nav_grading"
-        android:name="com.example.mobiledevassignment1.ui.slideshow.SlideshowFragment"
+        android:name="com.example.mobiledevassignment1.ui.grading.GradingFragment"
         android:label="@string/menu_grading"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_grading" />
 </navigation>
